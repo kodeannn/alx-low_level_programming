@@ -1,17 +1,19 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
-* more headers goes here
-* betty style doc for function main goes there
-*/
-int main(void)/* main - A c program that assign a random number*/
+
+/**
+ * main - Prints if number is positive, zero or negative
+ * Return: Always (Success)
+ */
+
+int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+
 	if (n > 0)
 	{
 		printf("%d\n is positive", n);

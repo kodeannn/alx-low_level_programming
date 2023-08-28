@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - Print the numbers since 0 up to 9
- *
  * Return: The numbers from 0 up to 9
  */
 
@@ -14,5 +13,5 @@ void print_numbers(void)
 	{
 		_putchar(x + '0');
 	}
-	_putchar('\n');
+	_putchar("\n");
 }

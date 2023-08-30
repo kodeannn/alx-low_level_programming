@@ -5,6 +5,7 @@
  * Return: The numbers from 0 up to 9
  */
 
+
 void print_numbers(void)
 {
 	int x;

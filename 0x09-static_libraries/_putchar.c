@@ -2,10 +2,11 @@
 
 /**
  * _putchar - print characters
- * Retur: Always 0
+ * @c: character to be used
+ * Return: Always 0
  */
 
-void _ptchar(char c)
+void _putchar(char c)
 {
 	write(1, &c, 1);
 }

@@ -25,7 +25,7 @@ int _atoi(char *s)
 		if (s[j] == '-')
 			e++;
 
-		if (s[j] >= '0' && s[j] <= '0')
+		if (s[j] >= '0' && s[j] <= '9')
 		{
 			num = s[j] - '0';
 			if (e % 2)

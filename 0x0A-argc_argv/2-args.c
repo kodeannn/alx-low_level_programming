@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * mai - beginning of function
+ * main - beginning of function
  * @argc: number of arguments
  * @argv: pointer to an array of arguments
  * Return: Always 0

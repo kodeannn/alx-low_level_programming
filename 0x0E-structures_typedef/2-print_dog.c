@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include "dog.h"
-#include <float.h>
 
 /**
  * print_dog - function that prints the elements and values of struct dog
@@ -17,7 +16,7 @@ void print_dog(struct dog *d)
 
 	if (d->name == NULL)
 	{
-		printf("nil");
+		printf("(nil)");
 	}
 	printf("Name: %s\n", d->name);
 
@@ -25,7 +24,7 @@ void print_dog(struct dog *d)
 
 	if (d->owner == NULL)
 	{
-		printf("nil");
+		printf("(nil)");
 	}
 	printf("Owner: %s\n", d->owner);
 }
